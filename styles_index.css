@@ -79,7 +79,7 @@ option{
     top: 109px;
     left: 0px ;
     right: 0px ;
-    background-image: url('../fond_ecran_acceuil.jpg');
+    background-image: url('image/fond_ecran_acceuil.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
