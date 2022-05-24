@@ -1,4 +1,85 @@
-h1{
-    font-size: 50px;
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../fond_ecran_acceuil.jpg');
+    background-size: cover;
+    position: relative;
+    display: contents;
+}
+header{
+    display: flex;
+    position: relative;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+div{
+    display: block;
+
+}
+select{
+    width: 182px;
+    height: 20px;
+}
+.c_droite{
+    position: absolute;
+    right: 0px;
+    margin: 30px; 
+    border: 1px solid white;
+    padding: 5px;
+}
+.chose{
+    color: white;
+    padding: 3px;
+    font-size: 15px;
+    padding-left: 35px;
+}
+.panel{
+    padding: 3px;
+}
+.gauche{
+    margin: 20px; 
+}
+nav ul li{
+    display: inline-block;
+    border: 1px solid white ;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 15px;
+
+}
+li:hover{
+    background-color: white;
+    color: black;
+}
+option{
+    font-size: 20px;
+} 
+.text{
+    position: absolute;
+    font-size: 35px;
+    left: 5% ;
     color: red;
+    top: 20% ;
+}
+.date_maj{
+    position: absolute;
+    left: 35%;
+    color: white;
+    bottom: 0px;
+    font-size: 20px;
+    padding: 5px;
+}
+.contenaire{
+    position: absolute;
+    bottom: 0px;
+    top: 109px;
+    left: 0px ;
+    right: 0px ;
+    background-image: url('../fond_ecran_acceuil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
