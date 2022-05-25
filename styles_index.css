@@ -47,8 +47,9 @@ nav ul li{
     display: inline-block;
     border: 1px solid white ;
     border-radius: 50px;
-    padding: 15px;
     margin-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 li:hover{
@@ -82,4 +83,15 @@ option{
     background-image: url('image/fond_ecran_acceuil.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a:hover{
+    color: black;
 }

@@ -1,0 +1,29 @@
+body{
+    background: rgb(255,0,159);
+    background: linear-gradient(90deg, rgba(255,0,159,1) 11%, rgba(29,75,253,1) 52%, rgba(72,255,210,1) 85%);
+    padding: 0;
+}
+.retour{
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0;
+}
+.text{
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    left: 100px;
+}
+a{
+    text-decoration: none;
+}
+.text_retour{
+    font-size: 15px;
+    color: white;
+}
+.lien{
+    color: red;
+}
